@@ -14,6 +14,6 @@ let palavras = ['Olá', 'mundo', 'isto', 'é', 'reduce'];
 let fraseCompleta = palavras.reduce((acumulador, valorAtual) => {
   return acumulador + valorAtual + ' ';
 
-},'');
+}, '');
 
 console.log(fraseCompleta);
